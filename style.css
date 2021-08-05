@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4F6272;
+}
+
+.ano {
+    margin-bottom: 20px;
+}
+
+.ano_title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #B7C3F3;
+    border: 2px solid #170A1C;
+    border-radius: 8px 8px 0 0;
+}
+
+.mes {
+    display: flex;
+    background-color: #B7C3F3;
+    border: 2px solid #170A1C;
+}
+
+.mes_title {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #170A1C;
+    font-weight: bold;
+}
+
+.mes_data {
+    font-weight: bold;
+    padding: 10px;
+}
