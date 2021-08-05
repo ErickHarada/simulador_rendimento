@@ -16,15 +16,23 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    background-color: #B7C3F3;
-    border: 2px solid #170A1C;
+    background-color: #0b5ed7;
+    color: #e4e5ed;
+    /* border: 2px solid #170A1C; */
     border-radius: 8px 8px 0 0;
 }
 
 .mes {
     display: flex;
+    /* border: 2px solid #170A1C; */
+}
+
+.light_color {
+    background-color: #e4e5ed;
+}
+
+.dark_color {
     background-color: #B7C3F3;
-    border: 2px solid #170A1C;
 }
 
 .mes_title {
@@ -32,11 +40,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 2px solid #170A1C;
+    /* border-right: 2px solid #170A1C; */
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .mes_data {
     font-weight: bold;
     padding: 10px;
+}
+
+.rend {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #c4d416;
+    /* border: 2px solid #170A1C; */
+}
+
+.button_scroll {
+    position: fixed;
+    right: -1px;
+    top: 90%;
+    width: 50px;
+    height: 30px;
+    border-radius: 8px 0 0 8px;
+    /* border: 2px solid #170A1C; */
 }
