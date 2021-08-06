@@ -74,10 +74,26 @@ function calcularRendimento(event) {
         rendimentoTotalHTML.textContent = 'Rendimento Acumulado: R$ ' + dividendoTotal.toFixed(2);
         rendimentoHTML.appendChild(rendimentoTotalHTML);
 
+        
         body.appendChild(ano);
     }
+    
+    var displayButtonHTML = document.createElement('div');
+    displayButtonHTML.classList.add('d-grid');
+
+    var buttonResetHTML = document.createElement('button');
+    buttonResetHTML.innerHTML = 'Reset';
+    buttonResetHTML.onclick = () => reset();
+    buttonResetHTML.classList.add('btn', 'btn-primary');
+    displayButtonHTML.appendChild(buttonResetHTML);
+
+    body.appendChild(displayButtonHTML);
 }
 
 function scrollDown() {
     window.scrollTo(0, document.body.scrollHeight);
+}
+
+function reset() {
+    body.innerHTML = '';
 }
